@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PFF FAST FOOD</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#ffffff;
+    color:#333;
+}
+
+header{
+    background:#d62828;
+    padding:20px 0;
+    text-align:center;
+    color:#fff;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:700;
+    background:#fff;
+    color:#d62828;
+    display:inline-block;
+    padding:10px 25px;
+    border-radius:50px;
+    margin-bottom:10px;
+}
+
+header h1{
+    font-size:40px;
+    letter-spacing:2px;
+}
+
+header p{
+    font-size:18px;
+}
+
+nav{
+    background:#003049;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:#fff;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:500;
+}
+
+nav a:hover{
+    color:#fcbf49;
+}
+
+.hero{
+    height:85vh;
+    background:url('https://images.unsplash.com/photo-1550547660-d9450f859349') center/cover no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:#fff;
+}
+
+.hero h2{
+    font-size:45px;
+    background:rgba(0,0,0,0.6);
+    padding:20px 40px;
+    border-radius:10px;
+}
+
+.section{
+    padding:60px 10%;
+    text-align:center;
+}
+
+.section h2{
+    font-size:32px;
+    margin-bottom:25px;
+    color:#d62828;
+}
+
+.menu-items{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.menu-card{
+    background:#f8f9fa;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.menu-card:hover{
+    transform:translateY(-8px);
+}
+
+.menu-card h3{
+    margin-bottom:10px;
+    color:#003049;
+}
+
+.contact{
+    background:#003049;
+    color:#fff;
+    padding:60px 10%;
+    text-align:center;
+}
+
+.contact a{
+    color:#fcbf49;
+    text-decoration:none;
+    font-weight:600;
+}
+
+footer{
+    background:#222;
+    color:#fff;
+    text-align:center;
+    padding:15px;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🍔 PFF FAST FOOD 🍟</div>
+    <h1>PFF FAST FOOD</h1>
+    <p>Delicious Taste, Fast Service</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Welcome to PFF FAST FOOD</h2>
+</section>
+
+<section class="section" id="about">
+    <h2>About Us</h2>
+    <p>
+        PFF FAST FOOD is your favorite destination in Jalandhar for fresh, tasty, and affordable fast food.
+        We serve burgers, pizza, fries, wraps and more with high-quality ingredients and quick service.
+    </p>
+</section>
+
+<section class="section" id="menu">
+    <h2>Our Popular Menu</h2>
+    <div class="menu-items">
+        <div class="menu-card">
+            <h3>Classic Burger</h3>
+            <p>Juicy grilled burger with fresh vegetables.</p>
+        </div>
+        <div class="menu-card">
+            <h3>Cheese Pizza</h3>
+            <p>Loaded with cheese and delicious toppings.</p>
+        </div>
+        <div class="menu-card">
+            <h3>French Fries</h3>
+            <p>Crispy golden fries with special seasoning.</p>
+        </div>
+        <div class="menu-card">
+            <h3>Chicken Wrap</h3>
+            <p>Fresh wrap filled with spicy grilled chicken.</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> Jalandhar, Punjab, India – 144004</p>
+    <p><strong>Phone:</strong> <a href="tel:9888919532">9888919532</a></p>
+    <p><strong>Email:</strong> <a href="mailto:deepakbalal68@gmail.com">deepakbalal68@gmail.com</a></p>
+</section>
+
+<footer>
+    © 2026 PFF FAST FOOD | All Rights Reserved
+</footer>
+
+</body>
+</html>
